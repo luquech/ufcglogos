@@ -9,7 +9,7 @@ header.navbar .navbar-brand img {
 
 /* aplica nova logo */
 header.navbar .navbar-brand {
-    background-image: url('https://raw.githubusercontent.com/luquech/ufcglogos/refs/heads/main/ufcglogonewv2.svg'); /*alterar a url com base na logo */
+    background-image: url('https://raw.githubusercontent.com/luquech/ufcglogos/refs/heads/main/ufcglogonewv2.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -39,7 +39,7 @@ header.navbar .navbar-brand {
 /* aplica nova logo */
 .navbar-vertical .navbar-brand,
 .sidebar .navbar-brand {
-    background-image: url('https://raw.githubusercontent.com/luquech/ufcglogos/refs/heads/main/ufcglogonewv2.svg'); /*alterar a url com base na logo */
+    background-image: url('https://raw.githubusercontent.com/luquech/ufcglogos/refs/heads/main/ufcglogonewv2.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -50,6 +50,28 @@ header.navbar .navbar-brand {
 
     padding-top: 10px !important;
     padding-bottom: 10px !important;
+
+    background-origin: content-box !important;
+    background-clip: content-box !important;
+}
+
+
+/* ==============================
+   MODO VERTICAL RECOLHIDO (COLLAPSED)
+================================ */
+
+body.navbar-collapsed .navbar-vertical .navbar-brand,
+body.navbar-collapsed .sidebar .navbar-brand {
+    background-image: url('https://raw.githubusercontent.com/luquech/ufcglogos/refs/heads/main/ufcglogonewv2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: 100% !important;
+    height: 55px !important;
+
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
 
     background-origin: content-box !important;
     background-clip: content-box !important;
