@@ -1,0 +1,56 @@
+/* ==============================
+   MODO NORMAL (NAVBAR NO TOPO)
+================================ */
+
+/* esconde logo original */
+header.navbar .navbar-brand img {
+    display: none !important;
+}
+
+/* aplica nova logo */
+header.navbar .navbar-brand {
+    background-image: url('https://raw.githubusercontent.com/luquech/ufcglogos/refs/heads/main/ufcglogonewv2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: 110px !important;
+    min-height: 71px !important;
+    display: block;
+
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+
+    background-origin: content-box !important;
+    background-clip: content-box !important;
+}
+
+
+/* ==============================
+   MODO VERTICAL (SIDEBAR)
+================================ */
+
+/* esconde logo original */
+.navbar-vertical .navbar-brand img,
+.sidebar .navbar-brand img {
+    display: none !important;
+}
+
+/* aplica nova logo */
+.navbar-vertical .navbar-brand,
+.sidebar .navbar-brand {
+    background-image: url('https://raw.githubusercontent.com/luquech/ufcglogos/refs/heads/main/ufcglogonewv2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: 100% !important;
+    height: 90px !important;
+    display: block;
+
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+
+    background-origin: content-box !important;
+    background-clip: content-box !important;
+}
